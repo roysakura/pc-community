@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+.database-container{
+  margin-top: -40px;
+}
+
+body .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #234471;
+  height: 50px;
+  z-index: 9999
+}
+
+body .footer .cont {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff
+}
+
+body {
+  padding-top: 120px
+}
+
+body .list {
+  overflow: hidden;
+  width: 100%
+}
+
+body .list .item {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #fff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .25);
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding: 15px 25px 20px
+}
+
+body .list .item p {
+  margin: 0 0 6px
+}
+
+body .list .item .tags {
+  font-size: 14px;
+  color: #979fa8
+}
+
+body .list .item .tags span {
+  margin-right: 10px
+}
+
+body .list .item .info {
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 10px
+}
+
+body .list .item .info .avatar {
+  display: inline-block;
+  float: left;
+  background: #d8d8d8;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px
+}
+
+body .list .item .info .name {
+  font-size: 14px;
+  color: #2d2d2d;
+  font-weight: 700;
+  margin-right: 15px
+}
+
+body .list .item .info .time {
+  font-size: 12px;
+  color: #979fa8
+}
+
+body .list .item .ttl {
+  font-size: 18px;
+  color: #2d2d2d;
+  font-weight: 700;
+  text-align: left;
+  /*height: 20px;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*line-height: 20px;*/
+  /*margin-left: 20px;*/
+  display: inline-block;
+  /*width: 250px;*/
+  width: 600px;
+}
+
+body .list .item .abstract {
+  height: 100px;
+  margin-bottom: 12px
+}
+
+body .list .item .abstract img {
+  float: left;
+  background: #d8d8d8;
+  border-radius: 2px;
+  width: 135px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #999;
+  margin-right: 13px
+}
+
+body .list .item .abstract .database-txt {
+  font-size: 14px;
+  color: #3e3e3e;
+  line-height: 24px;
+  height: 100px;
+  overflow: hidden;
+}
+body .list .item .abstract .database-txt .database-abstract{
+  display: inline-block;
+  height: 70px;
+  overflow: hidden;
+}
+body .list .item .abstract .database-txt .view-all {
+  color: #979fa8
+}
+
+body .list .item .abstract .database-txt .view-all:hover {
+  color: #337ab7;
+  text-decoration: underline
+}
+
+body .list .item .h16 {
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #979fa8;
+  margin: 0
+}
+
+body .list .item .h16 img {
+  display: block;
+  float: left;
+  width: 16px;
+  margin-right: 4px
+}
+
+body .list .item .h16 img.view {
+  margin-top: 2px
+}
+
+body .list .item .h16 .attr {
+  float: left;
+  margin-right: 30px;
+  line-height: 18px
+}
+
+body .list .item .h16 .attr.on {
+  cursor: pointer
+}
+
+.database-filt {
+  margin-bottom: 10px
+}
+
+.database-filt .cont .ttl {
+  float: left;
+  padding: 0 13px;
+  font-size: 14px;
+  color: #555
+}
+
+.database-filt .cont ul {
+  float: left;
+  margin: 0
+}
+
+.database-filt .cont ul li {
+  float: left;
+  margin-right: 35px;
+  cursor: pointer
+}
+
+.database-filt .cont ul li.on .rdo {
+  border: 4px solid #6d9ee1
+}
+
+.database-filt .cont ul li span {
+  font-size: 14px;
+  color: #555
+}
+
+.database-filt .cont ul li .rdo {
+  display: block;
+  float: left;
+  margin: 3px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 1px solid #979797;
+  border-radius: 100%
+}
+
+.database-content {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden
+}
+
+.database-content .cont-left {
+  float: left;
+  width: 750px;
+  overflow: hidden
+}
+
+.database-content .cont-left .list .item .h16 span {
+  padding: 0 15px;
+  border-right: 1px solid #979fa8
+}
+
+.database-content .cont-left .list .item .h16 span:first-child {
+  padding-left: 0
+}
+
+.database-content .cont-left .list .item .h16 span:last-child {
+  border-right: 0
+}
+
+.database-content .cont-right {
+  float: right;
+  width: 235px;
+  margin-bottom: 20px
+}
+
+.database-content .cont-right .item {
+  background: #fff;
+  border: 1px solid #fff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .25);
+  border-radius: 2px;
+  width: 233px;
+  height: 244px
+}
+.load-data-more{
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  font-size: 16px;
+  color: #cccccc;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.back-top{
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 64px;
+  right: 10px;
+  background: url("../img/back-top.png") no-repeat center;
+  cursor: pointer;
+  display: none;
+}

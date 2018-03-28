@@ -1,0 +1,110 @@
+@charset "utf-8";
+.xitu-list-container{
+  width: 954px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+.adv-xitu-container{
+  width: 954px;
+  height: 90px;
+  margin: 0 auto;
+}
+.adv-link{
+  width: 954px;
+  height: 90px;
+  display: block;
+  background: url("../img/Mask@1x.png") no-repeat center;
+}
+.xitu-list-content{
+  width: 900px;
+  margin: 10px auto;
+}
+.xitu-list-header{
+  background:#e9f0f5;
+  width:900px;
+  height:61px;
+  padding: 0 10px;
+  border-top: 1px solid #E3E3E3;
+}
+.xitu-header-ul{
+  display: flex;
+  justify-content: space-between;
+}
+.xitu-header-item{
+  height: 61px;
+  line-height: 61px;
+  text-align: left;
+  font-size: 14px;
+  color: #383838;
+  width: 100px;
+}
+.xitu-header-item-max{
+  height: 61px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.xitu-header-item-normal{
+  text-align: center;
+}
+.xitu-header-item-endtime{
+  text-align: center;
+}
+.xitu-header-item-guige{
+  width: 200px;
+  text-align: center;
+}
+.xitu-list-detail{
+  width:900px;
+  padding: 0 10px;
+  background-color: #fff;
+  border-left: 1px solid #E3E3E3;
+  border-right: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+}
+.xitu-detail-item-container{
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #E3E3E3;
+  cursor: pointer;
+}
+.xitu-detail-item-ul{
+  display: flex;
+  justify-content: space-between;
+}
+.xitu-detail-item{
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #383838;
+  width: 100px;
+  text-align: left;
+}
+.xitu-detail-item-guige{
+  width: 200px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.xitu-detail-item-max{
+  text-align: center;
+}
+.xitu-detail-item-endtime{
+  text-align: center;
+}
+.up{
+  color: #dc0000;
+}
+.down{
+  color: #00ba00;
+}
+.back-top{
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 64px;
+  right: 10px;
+  background: url("../img/back-top.png") no-repeat center;
+  cursor: pointer;
+  display: none;
+}

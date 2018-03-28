@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body .cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+body .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #234471;
+  height: 50px;
+  z-index: 9999
+}
+
+body .footer .cont {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff
+}
+
+body .footer .cont a{
+  color: #fff
+}
+body .footer .cont a:hover{
+  text-decoration: underline;
+}

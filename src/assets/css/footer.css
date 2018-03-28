@@ -1,0 +1,18 @@
+
+body .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #234471;
+  height: 50px;
+  z-index: 9999
+}
+
+body .footer .cont {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff
+}

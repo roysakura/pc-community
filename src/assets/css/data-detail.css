@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+body .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #234471;
+  height: 50px;
+  z-index: 9999
+}
+
+body .footer .cont {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #fff
+}
+
+.database-detaicl-container {
+  background: #fff !important;
+  padding-top: 66px;
+  margin-top: -110px;
+}
+
+.database-detail-menu {
+  height: 20px;
+  margin: 12px auto
+}
+
+.database-detail-menu a {
+  font-size: 14px;
+  color: #3e3e3e
+}
+
+.database-detail-menu a:hover {
+  color: #3e8fff
+}
+
+body .content {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden
+}
+
+body .content .cont-left {
+  float: left;
+  width: 750px
+}
+
+body .content .cont-left .detail {
+  margin-bottom: 20px
+}
+
+body .content .cont-left .detail .ttl img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background: #d8d8d8;
+  border-radius: 2px
+}
+
+body .content .cont-left .detail .ttl span {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #2d2d2d
+}
+
+body .content .cont-left .detail .info {
+  height: 28px;
+  margin-bottom: 10px
+}
+
+body .content .cont-left .detail .info span {
+  font-size: 12px;
+  color: #979fa8;
+  margin-right: 25px;
+  line-height: 28px
+}
+
+body .content .cont-left .detail .info .share-to {
+  float: right
+}
+
+body .content .cont-left .detail .info .share-to span {
+  margin-right: 0
+}
+
+body .content .cont-left .detail .info .share-to .bdsharebuttonbox {
+  float: right
+}
+
+body .content .cont-left .detail .word {
+  width: 100%;
+  border: 1px solid #979797;
+  padding: 28px
+}
+
+body .content .cont-left .detail .word .abstract {
+  margin-bottom: 50px
+}
+
+body .content .cont-left .detail .word .abstract .txt {
+  text-indent: 2em;
+  font-size: 16px;
+  color: #3e3e3e;
+  line-height: 26px;
+  font-family: "microsoft yahei"
+}
+
+body .content .cont-left .detail .word .download-wrap .download {
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 20px
+}
+
+body .content .cont-left .detail .word .download-wrap .download p {
+  font-size: 20px;
+  color: #333;
+  text-align: center
+}
+
+.download .down-l {
+  display: block;
+  margin: 0 auto;
+  background: #6d9ee1;
+  width: 146px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+body .content .cont-left .detail .word .download-wrap .earn {
+  text-align: center
+}
+
+body .content .cont-left .detail .word .download-wrap .earn a {
+  display: inline-block;
+  font-size: 16px;
+  color: #6d9ee1;
+  text-decoration: underline
+}
+
+body .content .cont-right {
+  float: right;
+  width: 235px;
+  padding-top: 86px
+}
+
+body .content .cont-right .item {
+  width: 100%
+}
+
+body .content .cont-right .item .ttl {
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #404040
+}
+
+body .content .cont-right .item ul {
+  overflow: hidden;
+  padding-top: 4px
+}
+
+body .content .cont-right .item ul li {
+  height: 26px
+}
+
+body .content .cont-right .item ul li a {
+  display: block;
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #3e3e3e;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+body .content .cont-right .item ul li a:hover {
+  color: #6d9ee1
+}
+
+body .content .cont-right .item ul li a span {
+  padding: 0 4px
+}
+
